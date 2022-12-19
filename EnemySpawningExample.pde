@@ -44,7 +44,7 @@ void draw() {                                      //draw() is called once per f
   
   background(255, 255, 255);                       //clear previous frame
   
-  spawn();                                         //call spawn() method
+  //spawn();                                       //uncomment to automate (very satisying)
   
   for(PVector p : enemies) {                       //for each PVector in the enemies ArrayList,
     fill(0);                                       //set fill color to black
